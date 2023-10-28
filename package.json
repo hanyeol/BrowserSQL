@@ -1,0 +1,32 @@
+{
+  "name": "browser-sql",
+  "version": "0.0.1",
+  "description": "A Node.js module that utilizes SQLite3 in web browsers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "cover": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanyeol/BrowserSQL.git"
+  },
+  "keywords": [
+    "sqlite3",
+    "browser"
+  ],
+  "author": "hanyeol.cho@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hanyeol/BrowserSQL/issues"
+  },
+  "homepage": "https://github.com/hanyeol/BrowserSQL#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
